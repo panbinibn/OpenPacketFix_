@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "packetfix",
+    "name": "PacketFix",
+    "description": "",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://getfdp.today",
+    "updateUrl": "",
+    "authorList": ["Liulihaocai"],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

@@ -1,0 +1,20 @@
+pluginManagement {
+	repositories {
+		mavenLocal()
+		mavenCentral()
+		gradlePluginPortal()
+		maven { url = "https://jitpack.io/" }
+		maven { url = "https://maven.minecraftforge.net/" }
+	}
+	resolutionStrategy {
+		eachPlugin {
+			switch (requested.id.id) {
+				case "net.minecraftforge.gradle.forge":
+					useModule("com.github.asbyth:ForgeGradle:${forgegradle_version}")
+					break
+			}
+		}
+	}
+}
+
+rootProject.name = 'PacketFix'
